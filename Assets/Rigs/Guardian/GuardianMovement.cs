@@ -14,7 +14,7 @@ public class GuardianMovement : MonoBehaviour
 
     void Update()
     {
-        float speed = Input.GetAxisRaw("Vertical");
+        float speed = Input.GetAxisRaw("Vertical"); // - 1
 
         animMachine.SetFloat("current speed", speed);
 
