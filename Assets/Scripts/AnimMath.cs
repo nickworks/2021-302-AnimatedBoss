@@ -23,6 +23,7 @@ public static class AnimMath {
             if (p < 0) return min;
             if (p > 1) return max;
         }
+
         return Quaternion.Lerp(min, max, p);
     }
 
